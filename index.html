@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>neurovolkov</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          <img
+            class="header_logo"
+            src="./img/logo.png"
+            alt="neurovolkov"
+            width="250"
+          />
+        </li>
+      </ul>
+      <div class="header_menu">
+        <ul class="description__list">
+          <li class="description__item">Neurology</li>
+          <li class="description__item">Pain management</li>
+          <li class="description__item">Vertebrology</li>
+        </ul>
+        <button type="button" class="mob__menu-open is-open" data-menu-open>
+          <svg
+            class="mob__icon-open"
+            width="20"
+            height="20"
+            aria-label="перемикач мобільного меню"
+          >
+            <use href="./img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="./index.html">Лікар</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="./diseases.html">Захворювання</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="./diagnostic.html">Діагностика</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="./treatments.html">Методи лікування</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- window menu -->
+      <!-- <div class="mob__menu-list is-hidden" data-menu>
+        <button type="button" class="mob__icon-close" data-menu-close>
+          <svg class="mob__icon-close" width="20" height="20">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mob__menu-list">
+          <li class="mob__menu-item">
+            <a class="mob__menu-link" href="./index.html">Лікар</a>
+          </li>
+          <li class="mob__menu-item">
+            <a class="mob__menu-link" href="./diseases.html">Захворювання</a>
+          </li>
+          <li class="mob__menu-item">
+            <a class="mob__menu-link" href="./diagnostic.html">Діагностика</a>
+          </li>
+          <li class="mob__menu-item">
+            <a class="mob__menu-link" href="./treatments.html"
+              >Методи лікування</a
+            >
+          </li>
+        </ul>
+      </div> -->
+    </header>
+    <main>
+      <section class="doctor">
+        <div class="doctor_wrap">
+          <img
+            class="doctor_img"
+            src="./img/volkov-mihail-viktor.jpg"
+            alt="фото лікаря"
+            width="350"
+          />
+          <p class="action_text">Волков Михайло Вікторович</p>
+        </div>
+        <div class="doctor_description">
+          <h1 class="doctor_title">Волков Михайло Вікторович</h1>
+          <ul class="doctor_list">
+            <li class="doctor_list_item">
+              Лікар-невролог вищої кваліфікаційної категорії з неперервним
+              стажем роботи з 2006 року.
+            </li>
+            <li class="doctor_list_item">
+              Алголог (спеціалізація в лікуванні болю, Pain management).
+            </li>
+            <li class="doctor_list_item">
+              Вертеброневролог. Вертебролог (спеціалізація в лікуванні
+              захворювань хребта).
+            </li>
+            <li class="doctor_list_item">
+              Ангіоневролог (спеціалізація в лікуванні судинних захворювань
+              нервової системи).
+            </li>
+            <li class="doctor_list_item">
+              Нейровестібулолог (спеціалізація в лікуванні розладів
+              координації).
+            </li>
+            <li class="doctor_list_item">
+              Психоневролог (спеціалізація на лікуванні психічних розладів при
+              захворюваннях нервової системи).
+            </li>
+            <li class="doctor_list_item">
+              Нейрореабілітолог (спеціалізація на відновленні уражень нервової
+              системи).
+            </li>
+            <li class="doctor_list_item">
+              Лікар-рефлексотерапевт, голкорефлексотерапевт.
+            </li>
+          </ul>
+          <div class="doctor_link_wrap">
+            <a class="doctor_link" href="./doctor.html">Лікар</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
