@@ -8,6 +8,7 @@
     --background-white: #FFFFFF;
     --text-color: #222222;
     --add-text-color: #212121;
+    --accent-dark-color: #232D49;
 
 }
 
@@ -46,6 +47,9 @@ img {
 
 a {
     text-decoration: none;
+}
+a:visited {
+    color: var(--text-color);
 }
 
 button {
