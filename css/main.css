@@ -356,4 +356,45 @@ a.footer_doctor_mail:link {
 
 .footer_doctor_mail:hover {
   font-weight: 700;
+}
+
+.header_navigatons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 32px 0;
+}
+
+.header-navigations_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
+}
+
+.header-navigations_link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.header_line {
+  border-bottom: 2px solid var(--accent-dark-color);
+}
+
+.header-navigations_link_neurology {
+  display: block;
+  margin-left: 120px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-navigations_link_neurology:hover {
+  color: var(--title-color);
 }/*# sourceMappingURL=main.css.map */
