@@ -3,16 +3,15 @@
 }
 
 .doctor_main {
-  
-
     padding-top: 40px;
-    // margin-top: 70px;
+
 }
 
 .content_img {
     width: 320px;
     margin: 12px 0;
 }
+
 .doctor_subtitle {
     font-weight: 700;
     font-size: 28px;
@@ -20,18 +19,21 @@
     letter-spacing: 0.03em;
     color: var(-text-color);
 }
+
 .text_item {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.02em;
-        color: var(-text-color);
-        text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: var(-text-color);
+    text-align: justify;
 
 }
+
 .mt_32 {
     margin-top: 32px;
 }
+
 .text_list {
     list-style-type: disc;
 }
