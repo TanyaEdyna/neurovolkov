@@ -473,7 +473,7 @@ a.footer_doctor_mail:link {
 }
 
 .deseases_title {
-  color: white;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 30px;
   line-height: 1.14;
@@ -525,6 +525,77 @@ a.footer_doctor_mail:link {
   margin-bottom: 24px;
 }
 
-.class {
-  color: aqua;
+.diagnostic {
+  padding: 40px 0 0;
+}
+
+.diagnostic_list {
+  margin-bottom: 32px;
+}
+
+.sub_text {
+  color: var(--accent-dark-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.sub_text_accent {
+  color: var(--accent-dark-color);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.secondary_text {
+  color: var(--accent-dark-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.secondary_text_accent {
+  color: var(--accent-dark-color);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.title_text {
+  color: var(--accent-dark-color);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.diagnostic_img {
+  width: 280px;
+  margin: 10px 0;
+}
+
+.diagnostic_img_size1 {
+  width: 220px;
+  margin: 10px 0;
+}
+
+.diagnostic_icon {
+  width: 14px;
+  height: 14px;
+}
+
+.methods-selection {
+  color: red;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  font-style: italic;
 }/*# sourceMappingURL=main.css.map */
