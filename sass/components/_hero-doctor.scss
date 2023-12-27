@@ -1,0 +1,121 @@
+.hero {
+    margin: 40px 0 40px auto;
+    max-width: 1600px;
+    color: white;
+    background-color: #2F303A;
+    background-image: linear-gradient(to right, rgba(38, 49, 165, 0.7), rgba(54, 66, 201, 0.7)),
+        url(../img/x-imagebanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.hero_section {
+    position: relative;
+}
+.doctor_img {
+    position: absolute;
+    top: 40px;
+        right: 14px;
+        z-index: 1;
+        width: 372px;
+
+}
+
+.hero_volkov {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    padding: 80px 0 24px 48px;
+    
+}
+
+.hero_title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    padding: 0 0 80px 48px;
+   
+}
+.doctor_category {
+    margin: 75px 0 75px 0;
+}
+.shape_background {
+    display: inline-block;
+    background: #f0f0f0;
+    border-radius: 15px;
+    
+}
+.wrap_category {
+    display: flex;
+    align-items: center;
+    padding: 32px 12px;
+}
+.category_icon {
+    margin-right: 12px;
+}
+.category_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+}
+.line {
+    border: 1px solid var(--accent-dark-color);
+   
+}
+
+.doctor_list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 92px 0;
+}
+.doctor_item {
+    display: flex;
+    align-items: center;
+}
+.doctor_list_icon {
+    margin-right: 8px;
+}
+.doctor_description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+}
+
+.doctor_button_wrap {
+    text-align: center;
+}
+.doctor_button {
+    display: inline-block;
+    padding: 20px 120px;
+    margin: 0 0 92px;
+    text-decoration: none;
+    color: white !important;
+    background-color: var(--title-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 350ms var(--cubic), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.doctor_button:hover, .doctor_link:focus {
+    box-shadow: 4px 4px 24px 0px rgba(33, 76, 207, 1);  
+
+}
+.doctor_button:active {
+    transform: translateY(2px);}

@@ -43,18 +43,19 @@
 }
 .secondary_text_accent {
    
-color: var(--accent-dark-color);
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+        color: var(--accent-dark-color);
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 .title_text {
-color: var(--accent-dark-color);
+    color: var(--accent-dark-color);
     font-weight: 900;
     font-size: 24px;
     line-height: 1.6;
     letter-spacing: 0.02em;
+    margin-bottom: 24px;
    
 }
 .diagnostic_img {
