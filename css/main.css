@@ -486,11 +486,12 @@ a.footer_doctor_mail:link {
 }
 
 .category_icon {
-  margin-right: 12px;
+  display: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1200px) {
   .category_icon {
-    display: none;
+    display: block;
+    margin-right: 12px;
   }
 }
 
