@@ -1,53 +1,105 @@
-.hero {
-    margin: 40px 0 40px auto;
-    max-width: 1600px;
-    color: white;
-    background-color: #2F303A;
-    background-image: linear-gradient(to right, rgba(38, 49, 165, 0.7), rgba(54, 66, 201, 0.7)),
-        url(../img/x-imagebanner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-.hero_section {
+.hero_wrap {
     position: relative;
 }
+.hero {
+margin-bottom: 52px;
+    @media screen and (min-width: 1200px) {
+        margin: 40px 0 40px auto;
+        max-width: 1600px;
+        color: white;
+        background-color: #2F303A;
+        background-image: linear-gradient(to right, rgba(38, 49, 165, 0.7), rgba(54, 66, 201, 0.7)),
+                    url(../img/x-imagebanner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  
+
+}
+
+
 .doctor_img {
-    position: absolute;
+    
     top: 40px;
-        right: 14px;
-        z-index: 1;
-        width: 372px;
+    right: 14px;
+    z-index: 1;
+    width: 100%;
+    @media screen and (min-width: 1200px) {
+        position: absolute;
+        top: 43px;
+        right: 2px;
+        width: 370px
+        
+    }
 
 }
 
 .hero_volkov {
+    @media screen and (max-width: 480px) {
+        position: absolute;
+            top: 608px;
+            width: 100%;
+            padding: 16px 0;
+            text-align: center;
+            background-color: #E4E9ED;
+            color: white;
+    }
+    
+
+    @media screen and (min-width: 1200px) {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     padding: 80px 0 24px 48px;
+    color: white;
     
+    }
+   
+
 }
 
 .hero_title {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    padding: 0 0 80px 48px;
-   
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: inline-block;
+        font-weight: 600;
+            font-size: 18px;
+            line-height: 1.6;
+            letter-spacing: 0.03em;
+            padding: 0 0 80px 48px;
+        
+    }
+ 
+
 }
+// github
 .doctor_category {
-    margin: 75px 0 75px 0;
+    @media screen and (max-width: 480px) {
+            margin: 36px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+        
+    }
+
+   @media screen and (min-width: 1200px) {
+    margin: 75px 0;
+   }
 }
 .shape_background {
-    display: inline-block;
+    
     background: #f0f0f0;
     border-radius: 15px;
+    @media screen and (min-width: 1200px) {
+            display: inline-block;
+                
+    }
+   
     
 }
 .wrap_category {
@@ -56,30 +108,55 @@
     padding: 32px 12px;
 }
 .category_icon {
+    @media screen and (max-width: 480px) {
+    display: none;
+    }
     margin-right: 12px;
 }
 .category_subtitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-
+  margin: 0 auto;
+  text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 1.4;
+        letter-spacing: 0.03em;
+        color: var(--text-color);
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        font-size: 16px; 
+        font-weight: 400;
+    }
 }
-.line {
-    border: 1px solid var(--accent-dark-color);
+.line { 
+    @media screen and (min-width: 1200px){
+        border: 1px solid var(--accent-dark-color);
+    }
+    
    
 }
 
 .doctor_list {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 62px;
+ 
+
+    @media screen and (min-width: 1200px) {
+    
     justify-content: space-around;
     flex-direction: row;
     margin: 92px 0;
+    }
 }
 .doctor_item {
+    margin-bottom: 18px;
     display: flex;
-    align-items: center;
+        align-items: first baseline;
+    @media screen and (min-width: 1200px) {
+        align-items: center;
+        margin: 0;
+    }
+    
 }
 .doctor_list_icon {
     margin-right: 8px;

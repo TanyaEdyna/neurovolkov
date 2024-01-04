@@ -5,12 +5,26 @@
 }
 .footer_list {
     display: flex;
-    justify-content: space-between;
-    margin: 42px 0;
+    flex-direction: column;
+    gap: 32px;
+
+    margin: 32px 0;  
+    @media screen and (min-width: 1200px){
+        flex-direction: row;
+        justify-content: space-between;
+        
+        margin: 42px 0;
+    }
+    
+
+  
    
 }
 
 .footer_work_title {
+    @media screen and (max-width: 480px) {
+        margin-bottom: 8px;
+    }
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
