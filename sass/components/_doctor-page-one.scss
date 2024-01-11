@@ -1,39 +1,176 @@
-.education_high_tittle {
-    margin-top: 50px;
+
+
+// .education_list {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     row-gap: 40px;
+  
+// }
+// .education_item {
+//     width: calc((100% - 60px)/3);
+// }
+// .education_item:hover, .education_item:focus {
+//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .education_link {
+//     display: flex;
+//     flex-direction: column;
+//     height: 100%;
+// }
+// .education_link:hover {
+//     opacity: 1;
+// }
+// .education_picture {
+//     width: 100%;
+// }
+.education {
+    background-color: #7291ed96;
+    padding: 28px 22px;
+    border-radius: 20px;
 }
 
-.doctor_main {
-    padding-top: 40px;
-
-}
-
-.content_img {
-    width: 320px;
-    margin: 12px 0;
-}
-
-.doctor_subtitle {
+.doctor_title {
+    text-align: center;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(-text-color);
+    color: var(--title-pages);
+    margin: 32px 0 40px 0;
+
 }
 
-.text_item {
+// .education_description_wrap {
+//     position: relative;
+//     overflow: hidden;
+// }
+// .education_description {
+//     position: absolute;
+//         top: 0;
+//         height: 100%;
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 1.6;
+//         letter-spacing: .03em;
+//         color: var(--background-white);
+//         background: #214ccfc3;
+//         padding: 28px 12px;
+//         opacity: 0;
+//         // transform: translateY(100%);
+//         //     transition-duration: 250ms;
+//         //     transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+// }
+.education_item {
+    margin-bottom: 12px;
+}
+.education_wrap, .professional_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.education_icon {
+    margin-right: 12px;
+    fill: #214ccf;
+}
+.education_subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-pages);
+
+}
+.education_subtitle_years {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+}
+.education_description {
     font-weight: 400;
+                font-size: 16px;
+                line-height: 1.6;
+                letter-spacing: .03em;
+        color: var(--title-pages);
+}
+// .education_wrap { стилі для блоків!!!!!!
+//     border-right: 1px solid var(--title-pages);
+//     border-bottom: 1px solid var(--title-pages);
+//     border-left: 1px solid var(--title-pages);
+//     padding: 20px 0 20px 23px;
+//     flex-grow: 1;
+// }
+// .education_title {
+//     font-weight: 700;
+//         font-size: 18px;
+//         line-height: 2.0;
+//         letter-spacing: 0.06em;
+//         color: var(--title-pages);
+//         margin-bottom: 4px;
+// }
+// .education_text {
+//     font-weight: 400;
+//         font-size: 16px;
+//         line-height: 1.88;
+//         letter-spacing: 0.03em;
+//         color: var(--title-pages);
+// }
+// .education_link:hover .education_description {
+//     opacity: 1;
+//     transform: translateY(0);
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+// }
+.professional {
+    background-color: #2c764872;
+        padding: 28px 22px;
+        border-radius: 20px;
+}
+
+.doctor_quality_description {
+    text-indent: 2em;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+        
+}
+.professional_icon {
+    margin-right: 12px;
+        fill: #205835;
+}
+.professional_subtitle  {
+font-weight: 700;
+    font-size: 22px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-pages);
+}
+.professional_subtitle_years {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+}
+.professional_description {
+font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 0.02em;
-    color: var(-text-color);
-    text-align: justify;
-
+    letter-spacing: .03em;
+    color: var(--title-pages);
 }
 
-.mt_32 {
-    margin-top: 32px;
-}
 
-.text_list {
-    list-style-type: disc;
-}
+
+
+
+
+
+
+
+
+
