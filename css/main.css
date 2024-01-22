@@ -606,9 +606,10 @@ a.footer_doctor_mail:link {
 }
 
 .education {
-  background-color: rgba(114, 145, 237, 0.5882352941);
   padding: 28px 22px;
   border-radius: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .doctor_title {
@@ -621,11 +622,22 @@ a.footer_doctor_mail:link {
   margin: 32px 0 40px 0;
 }
 
+.medical_education {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--title-pages);
+  margin-bottom: 26px;
+}
+
 .education_item {
   margin-bottom: 12px;
 }
 
-.education_wrap, .professional_wrap {
+.education_wrap,
+.professional_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -645,7 +657,7 @@ a.footer_doctor_mail:link {
 
 .education_subtitle {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-pages);
@@ -668,9 +680,10 @@ a.footer_doctor_mail:link {
 }
 
 .professional {
-  background-color: rgba(44, 118, 72, 0.4470588235);
   padding: 28px 22px;
   border-radius: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .doctor_quality_description {
@@ -680,6 +693,7 @@ a.footer_doctor_mail:link {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--title-pages);
+  margin-bottom: 42px;
 }
 
 .professional_icon {
@@ -776,85 +790,63 @@ a.footer_doctor_mail:link {
   margin-bottom: 24px;
 }
 
-.diagnostic {
-  max-width: 1600px;
-  background-color: var(--hero-footer-background);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(169, 170, 183, 0.7)), to(rgba(170, 171, 185, 0.7))), url(../img/bg/bg2.jpeg);
-  background-image: linear-gradient(rgba(169, 170, 183, 0.7), rgba(170, 171, 185, 0.7)), url(../img/bg/bg2.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 40px auto;
-  padding: 40px 0;
+.diagnostic_subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  color: var(--title-pages);
+  margin-bottom: 4px;
+  margin: 40px 0 40px;
+}
+
+.exam_methods {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  color: var(--title-pages);
+  padding: 16px 0 32px 0;
 }
 
 .diagnostic_list {
-  margin-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  gap: 52px;
+  margin-bottom: 40px;
 }
 
-.sub_text {
-  color: var(--accent-dark-color);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
+.diagnostic_item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 50%;
 }
 
-.sub_text_accent {
-  color: var(--accent-dark-color);
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
+.diagnostic_picture {
+  width: 100%;
+  height: auto;
 }
 
-.secondary_text {
-  color: var(--accent-dark-color);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-}
-
-.secondary_text_accent {
-  color: var(--accent-dark-color);
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.title_text {
-  color: var(--accent-dark-color);
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  margin-bottom: 24px;
-}
-
-.diagnostic_img {
-  width: 280px;
-  margin: 10px 0;
-}
-
-.diagnostic_img_size1 {
-  width: 220px;
-  margin: 10px 0;
-}
-
-.diagnostic_icon {
-  width: 14px;
-  height: 14px;
-}
-
-.methods-selection {
-  color: red;
+.diagnostic_methods_subtitle {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  font-style: italic;
+  font-size: 22px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-pages);
+}
+
+.diagnostic_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--title-pages);
 }/*# sourceMappingURL=main.css.map */

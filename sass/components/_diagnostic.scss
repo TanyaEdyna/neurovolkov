@@ -1,81 +1,145 @@
-.diagnostic {
-    max-width: 1600px;
-        background-color: var(--hero-footer-background);
-        background-image: linear-gradient(rgba(169, 170, 183, 0.7),
-                rgba(170, 171, 185, 0.7)),
-            url(../img/bg/bg2.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 40px auto;
-        padding: 40px 0;
-    
-}
-.diagnostic_list {
-    margin-bottom: 32px;
-}
-
-
-.sub_text {
-    color: var(--accent-dark-color);
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        margin-bottom: 20px;
-
-}
-.sub_text_accent{
-    color: var(--accent-dark-color);
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        margin-bottom: 20px;
-}
-.secondary_text {
-   
-    color: var(--accent-dark-color);
-        font-weight: 500;
-        font-size: 18px;
+.diagnostic_subtitle {
+    text-align: center;
+    font-weight: 700;
+        font-size: 22px;
         line-height: 1.6;
-        letter-spacing: 0.02em;
-}
-.secondary_text_accent {
-   
-        color: var(--accent-dark-color);
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-}
-.title_text {
-    color: var(--accent-dark-color);
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 1.6;
-    letter-spacing: 0.02em;
-    margin-bottom: 24px;
-   
-}
-.diagnostic_img {
-    width: 280px;
-    margin: 10px 0;
-}
-.diagnostic_img_size1 {
-    width: 220px;
-    margin: 10px 0;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+        margin-bottom: 4px;
+        margin: 40px 0 40px;
 }
 
-.diagnostic_icon {
-    width: 14px;
-    height: 14px;
-}
-.methods-selection {
-    color: red;
+.exam_methods {
+    text-align: center;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 28px;
         line-height: 1.6;
-        letter-spacing: 0.02em;
-        font-style: italic;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+        padding: 16px 0 32px 0;
+        // background-color:#214ccf3f;
 }
+
+
+
+.diagnostic_list {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px;
+    gap: 52px;
+    // background-color: #214ccf3f;
+    margin-bottom: 40px;
+}
+.diagnostic_item {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.diagnostic_picture {
+    width: 100%;
+    height: auto;
+}
+.diagnostic_methods_subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-pages);
+}
+.diagnostic_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--title-pages);
+}
+// .diagnostic_list {
+//     display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//     justify-content: space-between;
+//     padding: 0 20px 32px 20px;
+//     row-gap: 40px;
+//     background-color: #214ccf3f;
+
+// }
+// .diagnostic_item {
+//     display: flex;
+//     // gap: 20px;
+
+
+//     // // position: relative;
+//     // width: calc((100% - 60px)/2);   
+//     // max-width: 400px;
+
+
+
+// }
+// .diagnostic_item:hover, .diagnostic_item:focus {
+//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+// .diagnostic_link {
+//     display: flex;
+//     flex-direction: column;
+   
+   
+// }
+// .diagnostic_link:hover {
+//     opacity: 1;
+// }
+// .diagnostic_picture {
+//     width: 100%;
+       
+   
+// }
+
+// .diagnostic_description_wrap {
+//     position: relative;
+//     overflow: hidden;
+// }
+// .diagnostic_description {
+//     position: absolute;
+//         top: 0;
+//         height: 100%;
+//         font-weight: 400;
+//         font-size: 18px;
+//         line-height: 2;
+//         letter-spacing: .03em;
+//         color: var(--background-white);
+//         background: #214ccfc3;
+//         padding: 36px 18px;
+//         opacity: 0;
+//         transform: translateY(100%);
+//             transition-duration: 250ms;
+//             transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+// }
+
+// .diagnostic_wrap { 
+//     border-right: 1px solid var(--title-pages);
+//     border-bottom: 1px solid var(--title-pages);
+//     border-left: 1px solid var(--title-pages);
+//     padding: 20px 0 20px 23px;
+//     // flex-grow: 1;
+// }
+// .diagnostic_title {
+//     font-weight: 700;
+//         font-size: 18px;
+//         line-height: 2.0;
+//         letter-spacing: 0.06em;
+//         color: var(--title-pages);
+//         // margin-bottom: 4px;
+// }
+// .diagnostic_text {
+//     font-weight: 400;
+//         font-size: 16px;
+//         line-height: 1.88;
+//         letter-spacing: 0.03em;
+//         color: var(--title-pages);
+// }
+// .diagnostic_link:hover .diagnostic_description {
+//     opacity: 1;
+//     transform: translateY(0);
+//         transition-duration: 250ms;
+//         transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+// }
