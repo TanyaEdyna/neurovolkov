@@ -1,0 +1,48 @@
+.treatments_subtitle {
+    text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+        margin-bottom: 4px;
+        margin: 60px 0 60px;
+}
+.treatments_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+    margin-bottom: 52px;
+}
+.treatments_item {
+    flex: 1;
+    
+}
+.treatments_text {
+    font-weight: 700;
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+        margin-bottom: 18px;
+       
+}
+.treatments_description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.8;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+        
+        
+}
+.treatments_icon {
+    fill: var(--title-pages);
+}
+.text_accent {
+    color: var(--title-pages);
+    font-style: italic;
+    font-size: 16px;
+text-decoration: underline;
+
+}
