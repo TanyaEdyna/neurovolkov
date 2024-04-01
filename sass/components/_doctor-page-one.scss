@@ -42,20 +42,30 @@
 }
 
 .education_subtitle {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-    color: var(--title-pages);
+    font-size: 18px;
+    margin: 10px 0;
+    @media screen and (min-width: 1200px) {
+        font-weight: 700;
+            font-size: 20px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+            margin-bottom: 0;
+    }
+   
 
 }
 
 .education_subtitle_years {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-    color: var(--title-pages);
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+    }
+    
 }
 
 .education_description {
@@ -74,13 +84,16 @@
 }
 
 .doctor_quality_description {
+    text-align: center;
     text-indent: 2em;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--title-pages);
-    margin-bottom: 42px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+        margin-bottom: 42px;
+   
+    
 
 }
 
@@ -91,19 +104,29 @@
 }
 
 .professional_subtitle {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-    color: var(--title-pages);
+    font-size: 18px;
+    margin: 10px 0;
+    @media screen and (min-width:  1200px) {
+        font-weight: 700;
+            font-size: 22px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+            margin-bottom: 0;
+        
+    }
 }
 
 .professional_subtitle_years {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-    color: var(--title-pages);
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+    }
+    
 }
 
 .professional_description {

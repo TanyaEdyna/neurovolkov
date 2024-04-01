@@ -9,10 +9,26 @@
         margin: 60px 0 60px;
 }
 .treatments_list {
+    margin: 42px 0;
+    @media screen and (min-width: 1200px) {
+            display: flex;
+                justify-content: space-between;
+                gap: 52px;
+                margin-bottom: 52px;
+    }
+
+}
+.treatments_list_reverse {
+    @media screen and (max-width: 480px) {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
+.treatments_list_img {
     display: flex;
-    justify-content: space-between;
-    gap: 52px;
-    margin-bottom: 52px;
+        justify-content: center;
+        align-items: center;
 }
 .treatments_item {
     flex: 1;

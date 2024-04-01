@@ -50,7 +50,10 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: var(--text-color);
+    @media screen and (min-width: 1200px) {
+        color: var(--text-color);
+    }
+    
 }
 
 button {

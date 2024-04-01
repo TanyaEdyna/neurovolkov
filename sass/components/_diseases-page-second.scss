@@ -25,19 +25,38 @@
     
 }
 .deseases_list {
-    display: flex;
-    gap: 32px;
-    padding: 16px;
-    margin-bottom: 24px;
-    background-color: rgba(215, 233, 250, 0.674);
     border: 1px solid rgb(70, 70, 118);
     border-radius: 22px;
+    padding: 34px;
+    margin-bottom: 12px;
+    background-color: rgba(215, 233, 250, 0.674);
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            gap: 32px;
+            padding: 16px;
+            margin-bottom: 24px;
+            // background-color: rgba(215, 233, 250, 0.674);
+            border: 1px solid rgb(70, 70, 118);
+            border-radius: 22px;
+        }
+    }
+
+.deseases_list_img {
+    margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
 }
+
 
 .deseases_img {
     width: 330px;
     border-radius: 22px;
 }
+
 .deseases_subtitle {
     font-weight: 700;
         font-size: 22px;

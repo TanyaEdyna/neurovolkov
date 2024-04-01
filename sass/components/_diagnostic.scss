@@ -25,14 +25,28 @@
 
 
 .diagnostic_list {
-    display: flex;
-    justify-content: space-between;
-    gap: 52px;
-    margin-bottom: 40px;
+    margin: 42px 0;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+            justify-content: space-between;
+            gap: 52px;
+            margin-bottom: 40px;
+        }
+    }
+.diagnostic_list_reverse {
+    @media screen and (max-width: 480px) {
+        display: flex;
+            flex-direction: column-reverse;
+           
+    }
 }
 .diagnostic_item {
-    flex: 0 0 auto;
+    @media screen and (min-width: 1200px) {
+flex: 0 0 auto;
     width: 50%;
+    }
+   
 }
 
 .diagnostic_picture {
@@ -40,19 +54,36 @@
     
 }
 .diagnostic_methods_subtitle {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-    color: var(--title-pages);
+    text-align: center;
+        margin: 16px 0;
+        font-size: 20px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 700;
+            font-size: 22px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+    }
+  
 }
 .diagnostic_text {
+    text-align: center;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--title-pages);
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+    @media screen and (min-width: 1200px) {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.03em;
+            color: var(--title-pages);
+    }
+
 }
+
+
 // .diagnostic_list {
 //     display: flex;
 //   flex-direction: row;
